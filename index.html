@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="/estilo/style.css">
+</head>
+<body>
+    <div id="color-picker">
+        <input type="color" id="color-selector" value="#000000">
+    </div>
+    
+    <main class="main_container">
+        <header class="cabecalho">
+            <img src="imagens/icon.png" alt="logo_1">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+        <div class="container_input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+                <p>ATENÇÃO: Apenas letras maiúsculas e sem acento!</p>
+            </div>
+
+            <div id="output" style="color: var(--corprimaria);">
+                <img id="output-img" src="imagens/logo.png" alt="logo_2">
+                <span id="output-text">Digite um texto que queira criptografar ou descriptografar.</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container_btn">
+                <button onclick="criptografar()" class="btn_criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn_descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <h3 id="texto-movendo">Desenvolvido por Carlos</h3>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
