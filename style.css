@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom,var(--corterciaria), white, var(--corprimaria));
+    background: linear-gradient(to bottom,var(--corprimaria), white, var(--corprimaria));
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
